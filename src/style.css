@@ -1,0 +1,46 @@
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft_magenta: hsl(300, 69%, 71%);
+}
+
+body {
+    background-color: var(--violet);
+    background-image: url('./assets/images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: none;
+}
+
+.container {
+    background-color: aliceblue;
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+}
+
+.header {
+    background-color: violet;
+}
+
+.content {
+    margin-top: 50px;
+    display: flex;
+}
+
+.content-left {
+    width: 80%;
+}
+
+.footer {
+    background-color: wheat;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    padding-right: 50px;
+}
