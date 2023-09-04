@@ -15,17 +15,18 @@ body {
     align-items: center;
     margin: 0;
     border: none;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
 .container {
-    background-color: aliceblue;
     height: 90vh;
     width: 90vw;
     margin: auto;
 }
 
 .header {
-    background-color: violet;
+    /* background-color: violet; */
 }
 
 .content {
@@ -37,8 +38,29 @@ body {
     width: 80%;
 }
 
+.content-right {
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.content-title {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-right: 10%;
+}
+
+.register {
+    background-color: white;
+    padding: 5px 50px 15px 50px;
+    border-radius: 25px;
+    margin-top: 25px;
+    color: var(--violet);
+    font-size: 16px;
+    box-shadow: 3px 5px 0px black;
+}
+
 .footer {
-    background-color: wheat;
     display: flex;
     justify-content: end;
     gap: 10px;
