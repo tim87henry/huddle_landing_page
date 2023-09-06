@@ -52,17 +52,70 @@ body {
 
 .register {
     background-color: white;
-    padding: 5px 50px 15px 50px;
+    padding: 10px 50px 10px 50px;
+    border: 0;
     border-radius: 25px;
     margin-top: 25px;
     color: var(--violet);
     font-size: 16px;
-    box-shadow: 3px 5px 0px black;
+    box-shadow: 1px 5px 3px rgba(0,0,0,0.2);
+}
+
+.register:hover {
+    background-color: var(--soft_magenta);
+    color: white;
+    cursor: pointer;
 }
 
 .footer {
     display: flex;
     justify-content: end;
-    gap: 10px;
-    padding-right: 50px;
+    gap: 20px;
+    padding-right: 10%;
+    font-size: 24px;
+}
+
+.icon:hover {
+    cursor: pointer;
+    color: var(--soft_magenta);
+}
+
+@media (max-width: 500px) {
+
+    .body {
+        flex-direction: column;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .mockups {
+        height: 95%;
+        width: 95%;
+    }
+
+    .content, .content-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-right {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .content-title {
+        font-size: 14px;
+    }
+
+    .content-text {
+        font-size: 20px;
+    }
+
+    .footer {
+        margin-top: 50px;
+        justify-content: center;
+    }
 }

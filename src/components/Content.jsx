@@ -5,7 +5,7 @@ const Content = () => {
   return (
     <div className='content'>
         <div className="content-left">
-            <img src={image}></img>
+            <img src={image} className='mockups'></img>
         </div>
         <div className="content-right">
             <div className="content-title"><h1>Build The Community Your Fans Will Love</h1></div>
